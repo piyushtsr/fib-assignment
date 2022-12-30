@@ -21,10 +21,13 @@ public:
 int main() {
 
     Fibonacci fib;
-
-    for(int i=0;i<10;i++){
-        cout<< "for "<< i<<" "<<fib.is_fibonacci(i)<<endl;
-    }
+    cout<<"Enter a number to see if it's present in fibonaci series "<<endl;
+    int n;
+    cin>>n;
+    cout<<fib.is_fibonacci(n);
+//     for(int i=0;i<10;i++){
+//         cout<< "for "<< i<<" "<<fib.is_fibonacci(i)<<endl;
+//     }
 
 
     return 0;
